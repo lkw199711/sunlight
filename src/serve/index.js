@@ -4,7 +4,7 @@ import get_key_word from "./key-word";
 import md5 from "js-md5";
 
 // 接口路径的设置
-const url = process.env.NODE_ENV === 'development' ? '/cms' + "http://localhost/" : '/';
+const url = process.env.NODE_ENV === 'development' ? '/cms' + "/" : '/';
 
 /**
  * 创建默认接口请求设置
